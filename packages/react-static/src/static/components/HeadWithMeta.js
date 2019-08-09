@@ -118,9 +118,9 @@ export async function makeHeadWithMeta({
         {head.noscript}
         {head.script}
         {config.inlineCss && <InlineStyle clientCss={clientCss} />}
-        {head.style}
         {pluginHeads}
         {childrenArray}
+        {head.style}
       </head>
     )
   }
